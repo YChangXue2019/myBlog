@@ -1,0 +1,24 @@
+.containers-table-header-row-class-name{
+    height: 56px; 
+  }
+  .containers-table-header-cell-class-name{
+    // background-color: #edeff2 !important;
+    color: #111111;
+    text-align: center;
+    .cell{
+      text-align: center;
+    }
+  }
+  .containers-table-cell-class-name{
+    .cell{
+      text-align: center;
+    }
+  }
+  .el-table {
+    .el-table__cell{
+      // height: 45px;
+      line-height: 0px;
+      padding: 5px 0;
+    }
+  } 
+  
