@@ -16,10 +16,6 @@
                         <label class="label-item" for="userPwd">密码：</label>
                         <input type="password"  class="input-item" id="userPwd" v-model="userPwd" placeholder='请输入密码'/>
                     </div>
-                    <!-- <div class="login-pwd-item">
-                        <el-checkbox v-model="remFlag">记住密码</el-checkbox>
-                        <span class="forgit-paw">忘记密码</span>
-                    </div> -->
                     <div class="login-btn" @click="login">登录</div>
                 </div>
             </form>

@@ -35,7 +35,6 @@
 <script>
 import {mavonEditor} from 'mavon-editor'
 import 'mavon-editor/dist/css/index.css'
-import {articleTypeObj} from '@/lib/common'
 import{createBlog,updateBlog,blogDetail,uploadImg} from '@/api/blog'
 import{categoryOption} from '@/api/category'
 import moment from 'moment';
@@ -46,7 +45,6 @@ export default {
     },
     data(){
       return{
-        articleTypeObj,
         articleTypeOptions:[],
         blogTypeTotal:0,
         ruleForm:{

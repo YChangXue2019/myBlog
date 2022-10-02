@@ -141,6 +141,7 @@ export default {
         operateType:'',
         removeId:'',
         avatarUrl:'',
+        avatarFlag:false,
         qryForm:{
           username:'',
           manageFlag:'',
